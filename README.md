@@ -6,7 +6,7 @@
   <h3 align="center">Savaliya Technology</h3>
 
   <p align="center">
-  Online Website for Savaliya Technology Company
+    <b>Online Website for Savaliya Technology Company</b>
     <br />
   </p>
   <a  href="https://savaliyatechnology.com" target="blank" >View Demo</a>
