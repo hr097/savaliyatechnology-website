@@ -1,0 +1,1278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Savaliya Technology</title>
+    <link rel = "icon" href = "images/favicon.jpg"  type = "image/x-icon">
+    <!--SWIPER-->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style/swiper-bundle.min.css">
+    <!--Bootstrep-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/fontawesome.css">
+    <!-- select-customiza -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function(){
+          $(".default-option").click(function(){
+                $(this).parent().toggleClass("active");
+          });
+          $(".select-ul1 li").click(function(){
+            var shubh = $(this).html();
+            $("#default-option1 li").html(shubh);
+            $(this).parents(".select-wrap").removeClass("active");
+          })
+         
+          $(".select-ul2 li").click(function(){
+            var shubh1 = $(this).html();
+            $("#default-option2 li").html(shubh1);
+            $(this).parents(".select-wrap").removeClass("active");
+          })
+        });
+    </script>
+    <!-- css -->
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/mediastyle.css">
+    <link rel="stylesheet" href="style/Spinnerstyle.css">
+</head>
+<body onload="MYSPIN()">
+    <!-- Spinner HTML -->
+    <div  class="loader-wrapper" id="MYLOADING">
+        <div class="body">
+          <span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
+          <div class="base">
+            <span></span>
+            <div class="face"></div>
+          </div>
+        </div>
+        <div class="longfazers">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <h1 class="loadh1">Redirecting</h1>
+      </div>
+    <div class="container-fluid outer-header">
+        <div class="container raw inner-header">
+            <div class="col-lg-4 col-md-4 col-sm-4 inner-h1"><img id="topup" class="logo" src="images/logo.png"></div>
+            <div class="col-lg-8 col-md-8 col-sm-8 inner-h2">
+                <ul>
+                    <li>
+                        <img src="images/phone-call.png">
+                        <div>
+                            <p class="contect-info">Call us</p>
+                            <p>+91 458 654 528</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/email.png">
+                        <div>
+                            <p class="contect-info">Send us mail</p>
+                            <p>savaliya.techno@gmail.com</p>
+                        </div>
+                        
+                    </li> 
+                    <li>
+                        <a href="#">contact us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class=" row blue-div">
+            <div class="col-lg-9">
+                <p><img src="images/wall-clock.png"></i>We'are Open: Mon - Sat 8:00 - 18:00</p>
+            </div>
+            <div class="col-lg-3 social-iconss">
+                <div>
+                    <a><i class="fa fa-facebook"></i></a>
+                    <a><i class="fa fa-twitter"></i></a>
+                    <a><i class="fa fa-google-plus"></i></a>
+                    <a> <i class="fa fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="Row Menu">
+            <div class="col-lg-10">
+                <div class="Menu-btn">
+                    <div class="Menu-btn-burger"></div>
+                </div>
+                <ul class=" MENUClose">
+                    <li class="Active"><a  href="#">Home</a></li>
+                    <li>
+                        <a href="#">About</a>
+                        <!-- <div class="SubMenu">
+                            <ul>
+                                <li><a>About-us</a></li>
+                                <li><a>Our Team</a></li>
+                                <li><a>Gallery</a></li>
+                                <li><a>faq</a></li>
+                                <li><a>Testimonial</a></li>
+                                <li><a>Pricing table</a></li>
+                            </ul>
+                        </div> -->
+                    </li>
+                    <!-- <li>
+                        <a href="#">Services</a>
+                        <div class="SubMenu">
+                            <ul>
+                                <li><a>Service All</a></li>
+                                <li><a>service single</a></li>
+                            </ul>
+                        </div>
+                    </li> -->
+                    <!-- <li>
+                        <a href="#">Blog</a>
+                        <div class="SubMenu">
+                            <ul>
+                                <li><a>News left sidebar</a></li>
+                                <li><a>News right sidebar</a></li>
+                                <li><a>news single</a></li>
+                            </ul>
+                        </div>
+                    </li> -->
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class=" search-bar col-lg-2">
+                <div class="inner-serch">
+                    <section class="Sec-serch">
+                        <img class="search-btn" src="images/loupe.png" alt="search">
+                        <img class="cross-x"   src="images/letter-x.png" alt="cross">
+                    </section>
+                   
+                    <div class="input-search">
+                        <input type="search" placeholder="Type and Search here...">
+                    </div>
+                    
+                    <!-- <img class="shop-sub"  src="images/shopping-bag.png">
+                    <sup class="Sup2">2</sup> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="swiper-container" id="swiper-container1">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide  swiperslide1 blog-slider__item">
+                <div class="container cont">
+                    <div class="col-lg-8 cont1 slider-content"  >
+                        <h1 >
+                            <small>We give you</small><br/>
+                            Quality <span>Auto Repair</span>
+                         </h1>
+                        <p class="slider-paragraph ">
+                            Auto Painting &amp; Collision Repair Shop. We help you turn the car you drive back 
+                            into the car you love!
+                        </p>
+                        <a href="#" class="btn_primary btn ">
+                            Get Appointment
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide swiperslide2 blog-slider__item">
+                <div class="container cont">
+                    <div class="col-lg-8 cont1 slider-content"  >
+                        <h1 >
+                            <small >The Best</small><br/>
+                            Repair <span>&amp; Maintenance</span>
+                        </h1>
+                        <p class="slider-paragraph">
+                            Auto Painting &amp; Collision Repair Shop. We help you turn the car you drive back 
+                            into the car you love!
+                        </p>
+                        <a href="#" class="btn_primary btn">
+                            Get Appointment
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide swiperslide3 blog-slider__item">
+                <div class="container cont">
+                    <div class="col-lg-8 cont1 slider-content"  >
+                        <h1>
+                            <small>We Ensure</small><br/>
+                            Commitment  <span>to Quality</span>
+                         </h1>
+                        <p class="slider-paragraph ">
+                            Auto Painting &amp; Collision Repair Shop. We help you turn the car you drive back 
+                            into the car you love!
+                        </p>
+                        <a href="#" class="btn_primary btn">
+                            Get Appointment
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Add Arrows -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
+
+
+
+
+    <section class="CDTips">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-11 CDT-contact">
+                    <h2><span>Contact</span> Details</h2>
+                    <ul>
+                        <li>
+                           <span>Call us :</span>
+                           <p class="intro-info">+(91) 458 654 528</p>
+                        </li>
+                        <li>
+                           <span>Find us :</span>
+                           <p class="intro-info">1014 Retreat Avenue Birmingham, AL 35203</p>
+                        </li>
+                        <li>
+                           <span>Work time :</span>
+                           <p class="intro-info">Mon - Sat 7.00 - 18.30 Sunday Closed Call us for emergency</p>
+                        </li>
+                     </ul>
+                     <img src="images/phone-call (1).png"  alt="">
+                </div>
+                <div class="col-lg-4  col-md-4 col-sm-11 CDT-discount">
+                    <h2><span>Get</span> 30% Discount</h2>
+                    <form class="contactMe small text-center" method="POST">
+                        <div class="row">
+                            <div class="col-lg-12 textname">
+                                <input type="text" placeholder="Name*" required>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 textemail">
+                                <input type="Email" placeholder="Email*" required>
+                            </div>
+                            <div class="col-lg-6 col-md-6 textemail-select">
+                                <select name="service" data-displayname="service" >
+                                    <option value="information">Information</option>
+                                    <option value="support request">Support request</option>
+                                    <option value="other">Other ...</option>
+                                 </select>
+                                 
+                            </div>
+                            <div class="col-lg-12 btnget">
+                                <button class="btn btn-bordered" type="submit" data-text="get discount">get discount</button>
+                            </div>
+                        </div>
+                    </form>
+                    <img src="images/percentage.png"  alt="">
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-11 CDT-tips">
+                    <div class="swiper-container" id="swiper-container1">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide blue-slide">
+                            <h2>Vehicle <span>Tips</span></h2>
+                            <div class="intro-carousel ">
+                                <p>Most of the vehicles get damaged just because of maintenance neglect. If you take care of your vehicles,<br>
+                                    it will keep you safe.</p>
+                             </div>
+                            </div>
+                            <div class="swiper-slide blue-slide">
+                                <h2>Vehicle <span>Tips</span></h2>
+                                <div class="intro-carousel">
+                                    <p>Most of the vehicles get damaged just because of maintenance neglect. If you take care of your vehicles,<br>
+                                     it will keep you safe.</p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide blue-slide">
+                                <h2>Vehicle <span>Tips</span></h2>
+                                <div class="intro-carousel">
+                                    <p>Most of the vehicles get damaged just because of maintenance neglect. If you take care of your vehicles,<br>
+                                     it will keep you safe.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Add Arrows -->
+                        <div class="swiper-button-next blue-next"></div>
+                        <div class="swiper-button-prev blue-pre"></div>
+                      </div>
+                      <img src="images/lightbulb.png"  alt="">
+                </div>
+            </div>
+        </div>
+    </section> 
+
+
+    <section class="WhyChoose-main">
+        <div class="container" style="position: relative;">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2 class="section-title">
+                        <span>Why</span> Choose Us
+                    </h2>
+                </div>
+            </div>
+            <div class="row WhyChoose-submain">
+                <div class="col-lg-8 row WhyChoose-submain3-1">
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <img src="images/mechanic.png" alt="Mechenical" >
+                        <div>
+                            <h3>Expert <span>Mechanics</span></h3>
+                            <p>Most of the vehicles get damaged just because of maintenance neglect you take</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <img src="images/money.png" alt="Mechenical" >
+                        <div>
+                            <h3>Reasonable <span>Price</span></h3>
+                            <p>Most of the vehicles get damaged just because of maintenance neglect you take</p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="row">
+                <div class="col-lg-8 row WhyChoose-submain2-1">
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <img src="images/customer.png" alt="Mechenical" >
+                        <div>
+                            <h3>Trusted <span>by 5000 Clients</span></h3>
+                            <p>Most of the vehicles get damaged just because of maintenance neglect you take</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <img src="images/clock.png" alt="Mechenical" >
+                        <div>
+                            <h3>Fast <span>feature Delivery</span></h3>
+                            <p>Most of the vehicles get damaged just because of maintenance neglect you take</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="whyIMG"><img src="images/why_choose_us_img.png" class="why_choose_us"alt=""></div>
+        </div>
+    </section>
+
+
+    <div class="container-fluid Skew-effect-main">
+        <div class="row Skew-effect-submain">
+            <div class="col-lg-7 col-sm-12 Skew-effect-submain1">
+                <h2 class="column-title">
+                    <small>Come before 21st Feb</small><br>
+                    Get<span> Upto 30% Rewards</span>
+                 </h2>
+                 <p>Auto Painting &amp; Collision Repair Shop. We help you turn the car you drive back into the car you love!</p>
+                 <a href="#" class="btn_primary btn">
+                    Claim Rewaed
+                </a>
+            </div>
+            <div class="col-lg-5 col-sm-12 Skew-effect-submain2">
+                <div>
+                    <h2 class="column-title2">
+                        About<span> Automobil</span>
+                     </h2>
+                     <p>Most of the vehicles get damaged just because of<br/>
+                        maintenance neglect you take. get damaged</p>
+                    <ul class="unstyled-main">
+                        <li><i class="fa fa-circle-o"></i>The vehicles get damaged just because of mainte</li>
+                        <li><i class="fa fa-circle-o"></i>The Big Oxmox advised her not to do vehicles</li>
+                        <li><i class="fa fa-circle-o"></i>The Little Blind Text didn’t listen herself</li>
+                        <li><i class="fa fa-circle-o"></i>Alphabet Village and the subline of </li>
+                    </ul>
+                    <img src="images/about_img.png">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <section style="padding-bottom:70px;">
+        <div class="container">
+            <div class="row hadding-trio">
+                <div class="col-lg-12">
+                    <h2>
+                        Our<span> Working Process</span>
+                    </h2>
+                </div>
+            </div>
+            <div class="row trio-main">
+                <div class="col-lg-4 col-md-12 col-sm-12 trio-submain1">
+                    <div class="trio-submain1-div1">
+                        <div>
+                            <img src="images/mobile-message.png">
+                            <img src="images/one.png"> 
+                        </div>
+                        <h3>Request<span> Quote</span></h3>
+                        <p>Most of the vehicles get damage<br> just because of maintain</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 col-sm-12 trio-submain2">
+                    <div class="trio-submain2-div1">
+                        <div>
+                            <img src="images/car.png">
+                            <img src="images/two.png"> 
+                        </div>
+                        <h3>Bring <span>Your Vehicle</span></h3>
+                        <p>Most of the vehicles get damage<br> just because of maintain</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 col-sm-12  trio-submain3">
+                    <div class="trio-submain3-div1">
+                       <div>
+                            <img src="images/car (1).png">
+                            <img src="images/three.png"> 
+                        </div>
+                        <h3>Get <span>It Repaired</span></h3>
+                        <p>Most of the vehicles get damage<br> just because of maintain</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section class="Fixed-Background">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 Fixed-Background-submain">
+                    <h2 class="section-title">
+                        <span>Services </span>We Provide
+                     </h2>
+                </div>
+                <div class="col-lg-6">
+                    <div class="swiper-container  FixSwip" style="overflow: visible !important;"id="swiper-container2">
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>   
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <section class="lierlopp3-swiper">
+        <div class="container">
+            <div class="row">
+                <div class="swiper-container hello" id="swiper-container2" style="overflow: hidden;">
+                    <div class="swiper-wrapper loop3infinate">
+                        <div class="swiper-slide ">
+                            <div>
+                                <img src="images/service_img1.jpg" class="Services-images-sub" alt="Service-image1" >
+                            </div> 
+                            <div class="main-3lierinfinate">
+                                <div class="service-icon">
+                                    <img src="images/engineering.png" alt="">
+                                </div>
+                                <h3><a href="#">Engine Diagnostics</a></h3>
+                                <p>Most of the vehicles get damaged just because of maintenance neglect. If you take care of your.</p>
+                                <a href="#" class="readmore">Read more<i class="fa fa-angle-double-right"></i></a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div>
+                                <img src="images/service_img2.jpg" class="Services-images-sub" alt="Service-image1" >
+                            </div> 
+                            <div class="main-3lierinfinate">
+                                <div class="service-icon">
+                                    <img src="images/air-conditioned.png" alt="">
+                                </div>
+                                <h3><a href="#">Air Conditioning Evac</a></h3>
+                                <p>Most of the vehicles get damaged just because of maintenance neglect. If you take care of your.</p>
+                                <a href="#" class="readmore">Read more<i class="fa fa-angle-double-right"></i></a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div>
+                                <img src="images/service_img3.jpg"  class="Services-images-sub"alt="Service-image1" >
+                            </div> 
+                            <div class="main-3lierinfinate">
+                                <div class="service-icon">
+                                    <img src="images/oil-pump.png" alt="">
+                                </div>
+                                <h3><a href="#">Lube, Oil and Filters</a></h3>
+                                <p>Most of the vehicles get damaged just because of maintenance neglect. If you take care of your.</p>
+                                <a href="#" class="readmore">Read more<i class="fa fa-angle-double-right"></i></a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div>
+                                <img src="images/service_img1.jpg"class="Services-images-sub" alt="Service-image1" >
+                            </div> 
+                            <div class="main-3lierinfinate">
+                                <div class="service-icon">
+                                    <img src="images/home.png" alt="">
+                                </div>
+                                <h3><a href="#">Engine Diagnostics</a></h3>
+                                <p>Most of the vehicles get damaged just because of maintenance neglect. If you take care of your.</p>
+                                <a href="#" class="readmore">Read more<i class="fa fa-angle-double-right"></i></a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div>
+                                <img src="images/service_img2.jpg"class="Services-images-sub" alt="Service-image1" >
+                            </div> 
+                            <div class="main-3lierinfinate">
+                                <div class="service-icon">
+                                    <img src="images/3d-pen.png" alt="">
+                                </div>
+                                <h3><a href="#">Air Conditioning Evac</a></h3>
+                                <p>Most of the vehicles get damaged just because of maintenance neglect. If you take care of your.</p>
+                                <a href="#" class="readmore">Read more<i class="fa fa-angle-double-right"></i></a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div>
+                                <img src="images/service_img3.jpg" class="Services-images-sub" alt="Service-image1" >
+                            </div> 
+                            <div class="main-3lierinfinate">
+                                <div class="service-icon">
+                                    <img src="images/oil.png" alt="">
+                                </div>
+                                <h3><a href="#">Lube, Oil and Filters</a></h3>
+                                <p>Most of the vehicles get damaged just because of maintenance neglect. If you take care of your.</p>
+                                <a href="#" class="readmore">Read more<i class="fa fa-angle-double-right"></i></a>
+                            </div>
+                        </div> 
+                        <div class="swiper-slide">
+                            <div>
+                                <img src="images/service_img1.jpg" class="Services-images-sub" alt="Service-image1" >
+                            </div> 
+                            <div class="main-3lierinfinate">
+                                <div class="service-icon">
+                                    <img src="images/engineering.png" alt="">
+                                </div>
+                                <h3><a href="#">Engine Diagnostics</a></h3>
+                                <p>Most of the vehicles get damaged just because of maintenance neglect. If you take care of your.</p>
+                                <a href="#" class="readmore">Read more<i class="fa fa-angle-double-right"></i></a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div>
+                                <img src="images/service_img2.jpg" class="Services-images-sub" alt="Service-image1" >
+                            </div> 
+                            <div class="main-3lierinfinate">
+                                <div class="service-icon">
+                                    <img src="images/air-conditioned.png" alt="">
+                                </div>
+                                <h3><a href="#">Air Conditioning Evac</a></h3>
+                                <p>Most of the vehicles get damaged just because of maintenance neglect. If you take care of your.</p>
+                                <a href="#" class="readmore">Read more<i class="fa fa-angle-double-right"></i></a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div>
+                                <img src="images/service_img3.jpg" class="Services-images-sub" alt="Service-image1" >
+                            </div> 
+                            <div class="main-3lierinfinate">
+                                <div class="service-icon">
+                                    <img src="images/oil-pump.png" alt="">
+                                </div>
+                                <h3><a href="#">Lube, Oil and Filters</a></h3>
+                                <p>Most of the vehicles get damaged just because of maintenance neglect. If you take care of your.</p>
+                                <a href="#" class="readmore">Read more<i class="fa fa-angle-double-right"></i></a>
+                            </div>
+                        </div> 
+                        <div class="swiper-slide">
+                            <div>
+                                <img src="images/service_img1.jpg" class="Services-images-sub" alt="Service-image1" >
+                            </div> 
+                            <div class="main-3lierinfinate">
+                                <div class="service-icon">
+                                    <img src="images/home.png" alt="">
+                                </div>
+                                <h3><a href="#">Engine Diagnostics</a></h3>
+                                <p>Most of the vehicles get damaged just because of maintenance neglect. If you take care of your.</p>
+                                <a href="#" class="readmore">Read more<i class="fa fa-angle-double-right"></i></a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div>
+                                <img src="images/service_img2.jpg" class="Services-images-sub" alt="Service-image1" >
+                            </div> 
+                            <div class="main-3lierinfinate">
+                                <div class="service-icon">
+                                    <img src="images/3d-pen.png" alt="">
+                                </div>
+                                <h3><a href="#">Air Conditioning Evac</a></h3>
+                                <p>Most of the vehicles get damaged just because of maintenance neglect. If you take care of your.</p>
+                                <a href="#" class="readmore">Read more<i class="fa fa-angle-double-right"></i></a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div>
+                                <img src="images/service_img3.jpg"class="Services-images-sub" alt="Service-image1" >
+                            </div> 
+                            <div class="main-3lierinfinate">
+                                <div class="service-icon">
+                                    <img src="images/oil.png" alt="">
+                                </div>
+                                <h3><a href="#">Lube, Oil and Filters</a></h3>
+                                <p>Most of the vehicles get damaged just because of maintenance neglect. If you take care of your.</p>
+                                <a href="#" class="readmore">Read more<i class="fa fa-angle-double-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+               
+            </div>
+        </div>
+    </section>
+
+
+    <section class="Appoinment-outer-main">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-8 col-sm-12">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <h2 class="Appoinment-heading1">
+                                Book <span>An Appointment</span>
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="form-container col-lg-12  Appoinment-inner-main">
+                            <form action="" method="GET">
+                                <section >
+                                    <div class="form-row">
+                                        <div class="col-lg-6 col-md-12 col-sm-12">
+                                            <input type="text" name="name" data-displayname="Name" class="field" placeholder="Name" required="">
+                                        </div>
+                                        <div class="col-lg-6 col-md-12 col-sm-12">
+                                            <input type="tel" name="phone" data-displayname="Phone" class="field" placeholder="Number" required="">
+                                        </div>
+                                    </div>
+                                    <div class="form-row">
+                                        <div class="col-lg-6 col-md-12 col-sm-12">
+                                            <input type="email" name="email" data-displayname="E-mail" class="field" placeholder="Email" required="">
+                                        </div>
+                                        <div class="col-lg-6 col-md-12 col-sm-12">
+                                            <div class="select-wrap field" >
+                                                <ul class="default-option" id="default-option1">
+                                                    <li>
+                                                        <div class="option Shubh">
+                                                            <p >Car Brands</p>
+                                                        </div>
+                                                    </li>
+                                                    <div class="cross-main">
+                                                        <img src="images/cross-sign.png" class="cross">
+                                                    </div>
+                                                    
+                                                </ul>
+                                                <ul class="select-ul select-ul1"   >
+                                                    <li >
+                                                        <div class="option Shubh">
+                                                            <p>Car Brands</p>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="option Harshil">
+                                                            <p>BMW</p>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="option Viraj">
+                                                            <p>TOYOTA</p>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-row">
+                                        <div class="col-lg-6 col-md-12 col-sm-12">
+                                            <!-- <input type="datetime" name="date" id="date-start-1" data-displayname="Date" class="field cm-date" data-idconnecteddateend="date-end-1" required="" readonly="readonly"> -->
+                                            <input type="date" id="birthday" name="birthday" class="field">
+                                        </div>
+                                        <div class="col-lg-6 col-md-12 col-sm-12">
+                                            <div class="select-wrap field" >
+                                                <ul class="default-option"  id="default-option2">
+                                                    <li>
+                                                        <div class="option">
+                                                            <p>Select Service</p>
+                                                        </div>
+                                                    </li>
+                                                    <div class="cross-main">
+                                                        <img src="images/cross-sign.png" class="cross">
+                                                    </div>
+                                                    
+                                                </ul>
+                                                <ul class="select-ul select-ul2" style="top: -170px;">
+                                                    <li>
+                                                        <div class="option ">
+                                                            <p>Select Service</p>
+                                                        </div>
+                                                    </li>
+                                                    <li >
+                                                        <div class="option ">
+                                                            <p> Engine Diagnostics</p>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="option ">
+                                                            <p> Air Conditioning Evac</p>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="option ">
+                                                            <p>Lube, Oil and Filters</p>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-row">
+                                        <div class="col-lg-12">
+                                            <a href="#" class="btn_primary btn" style="float: right;">
+                                                Estimate Rate
+                                            </a>
+                                        </div>
+                                    </div>
+                                </section>
+                            </form>
+                        </div>
+                    </div>
+                   
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12" style="padding: 0 30px">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <h2 class="Appoinment-heading1">
+                                    Clients<span>Love</span>
+                                </h2>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="swiper-container" id="swiper-container3">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <div class="client-body">
+                                                <div class="client-content">
+                                                    <h4>Engine Digonastic</h4>
+                                                    <div class="ts-rating">
+                                                        <ul class="unstyled">
+                                                            <li><i class="fa fa-star"></i></li>
+                                                            <li><i class="fa fa-star"></i></li>
+                                                            <li><i class="fa fa-star"></i></li>
+                                                            <li><i class="fa fa-star"></i></li>
+                                                            <li><i class="fa fa-star"></i></li>
+                                                         </ul>
+                                                    </div>
+                                                </div>
+                                                <p> wonderful serenity taken possession  into entire soul  like to these sweet of  tence  this spot which was the main part created for </p>
+                                                <div id="Double-qoutes">
+                                                    <img src="images/quote.png" class="img-fluid"alt="" srcset="">
+                                                </div>
+                                            </div>
+                                            <div class="profile-pic">
+                                                <img src="images/quote_profile.png" alt="" srcset="">
+                                                <div class="profile-Content">
+                                                    <h3 class="client-name">Donald Gonzales</h3>
+                                                    <span class="client-desig">Lead Painter</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="client-body">
+                                                <div class="client-content">
+                                                    <h4>Engine Digonastic</h4>
+                                                    <div class="ts-rating">
+                                                        <ul class="unstyled">
+                                                            <li><i class="fa fa-star"></i></li>
+                                                            <li><i class="fa fa-star"></i></li>
+                                                            <li><i class="fa fa-star"></i></li>
+                                                            <li><i class="fa fa-star"></i></li>
+                                                            <li><i class="fa fa-star"></i></li>
+                                                         </ul>
+                                                    </div>
+                                                </div>
+                                                <p> wonderful serenity taken possession  into entire soul  like to these sweet of  tence  this spot which was the main part created for </p>
+                                                <div id="Double-qoutes">
+                                                    <img src="images/quote.png" class="img-fluid"alt="" srcset="">
+                                                </div>
+                                            </div>
+                                            <div class="profile-pic">
+                                                <img src="images/Shubh.jpeg" alt="" srcset="">
+                                                <div class="profile-Content">
+                                                    <h3 class="client-name">shubham Khunt</h3>
+                                                    <span class="client-desig">Lead Painter</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="client-body">
+                                                <div class="client-content">
+                                                    <h4>Engine Digonastic</h4>
+                                                    <div class="ts-rating">
+                                                        <ul class="unstyled">
+                                                            <li><i class="fa fa-star"></i></li>
+                                                            <li><i class="fa fa-star"></i></li>
+                                                            <li><i class="fa fa-star"></i></li>
+                                                            <li><i class="fa fa-star"></i></li>
+                                                            <li><i class="fa fa-star"></i></li>
+                                                         </ul>
+                                                    </div>
+                                                </div>
+                                                <p> wonderful serenity taken possession  into entire soul  like to these sweet of  tence  this spot which was the main part created for </p>
+                                                <div id="Double-qoutes">
+                                                    <img src="images/quote.png" class="img-fluid"alt="" srcset="">
+                                                </div>
+                                            </div>
+                                            <div class="profile-pic">
+                                                <img src="images/hr.jpeg" alt="" srcset="">
+                                                <div class="profile-Content">
+                                                    <h3 class="client-name">Harshil Ramani</h3>
+                                                    <span class="client-desig">Lead Painter</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                    
+                                    </div>
+                                    <!-- Add Pagination -->
+                                    <div class="swiper-pagination client-red-pre"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    
+    <section class="NewsLetter">
+        <div class="row">
+            <div class="col-lg-5 col-md-5 col-sm-12">
+                <div class="skew2">
+                    <div class="skew2-submain">
+                         <h2 class="Skew-title">
+                             Subscribe<span> For <br>Newsletter</span>
+                        </h2>
+                        <form action="" method="POST">
+                            <div class="Email-input-box">
+                                <input type="email" placeholder="Your Email" required>
+                                <button type="submit" class="telbtn">
+                                     <img class="Telegram-icon"src="images/telegram.png" alt="">
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-12">
+
+                <div class="bestpraise">
+                    <div class="bestprise-submain">
+                        <h2 class="prise-title">
+                            <small>We offer you</small><br>
+                            The<span> Best Auto Repair Service</span>
+                         </h2> 
+                         <a href="#" class="btn_primary btn">
+                            Contact us
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section class="finit-slide-main">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12" >
+                    <h2 class="section-title">
+                        <span>Our</span> Latest News
+                     </h2>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 Fix-swip-main">
+                    <div class="swiper-container FixSwip" style="overflow: visible !important;"id="swiper-container4">
+                        <div class="swiper-button-prev" id="swiper-button-prev"></div>
+                        <div class="swiper-button-next" id="swiper-button-next"></div>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="row">
+                <div class="swiper-container hello" id="swiper-container4" style="overflow: hidden;">
+                    <div class="swiper-wrapper loop3infinate">
+                        <div class="swiper-slide ">
+                            <div>
+                                <img src="images/post-img1.jpg" class="Services-images-sub" alt="Service-image1" >
+                            </div> 
+                            <div class="main-3lierinfinate">
+                                <div class="service-icon service-date-block">
+                                    <div class="date-icon">
+                                        <span class="day">21</span>
+                                        <span class="month">May</span>
+                                    </div>
+                                </div>
+                                <div class="post-info">
+                                    <div class="post-meta">
+                                       <img class="avatar" alt="" src="images/avatar1.png">
+                                       <span class="post-author">By <a href="#">Jhony Rick</a></span>
+                                    </div>
+                                 </div>
+                                <h3><a href="#">20th car looking smarter</a></h3>
+                                <p>A wonderful serenity taken possession  into entire soul  like to these sweet and mornings </p>
+                                <a href="#" class="readmore readmore1">Read more<i class="fa fa-angle-double-right"></i></a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div>
+                                <img src="images/post-img2.jpg" class="Services-images-sub" alt="Service-image1" >
+                            </div> 
+                            <div class="main-3lierinfinate">
+                                <div class="service-icon service-date-block ">
+                                    <div class="date-icon">
+                                        <span class="day">18</span>
+                                        <span class="month">Jun</span>
+                                    </div>
+                                </div>
+                                <div class="post-info">
+                                    <div class="post-meta">
+                                       <img class="avatar" alt="" src="images/avatar1.png">
+                                       <span class="post-author">By <a href="#">Jhony Rick</a></span>
+                                    </div>
+                                 </div>
+                                <h3><a href="#">Repaired Unlocking Mystery</a></h3>
+                                <p>A wonderful serenity taken possession  into entire soul  like to these sweet and mornings </p>
+                                <a href="#" class="readmore readmore1">Read more<i class="fa fa-angle-double-right"></i></a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div>
+                                <img src="images/post-img3.jpg" style="height: 228px; "class="Services-images-sub"alt="Service-image1" >
+                            </div> 
+                            <div class="main-3lierinfinate">
+                                <div class="service-icon service-date-block ">
+                                    <div class="date-icon">
+                                        <span class="day">25</span>
+                                        <span class="month">Jun</span>
+                                    </div>
+                                </div>
+                                <div class="post-info">
+                                    <div class="post-meta">
+                                       <img class="avatar" alt="" src="images/avatar1.png">
+                                       <span class="post-author">By <a href="#">Jhony Rick</a></span>
+                                    </div>
+                                 </div>
+                                <h3><a href="#">Protecting Your Auto Repair</a></h3>
+                                <p>A wonderful serenity taken possession  into entire soul  like to these sweet and mornings </p>
+                                <a href="#" class="readmore readmore1">Read more<i class="fa fa-angle-double-right"></i></a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div>
+                                <img src="images/post-img2.jpg"class="Services-images-sub" alt="Service-image1" >
+                            </div> 
+                            <div class="main-3lierinfinate">
+                                <div class="service-icon service-date-block ">
+                                    <div class="date-icon">
+                                        <span class="day">08</span>
+                                        <span class="month">Jul</span>
+                                    </div>
+                                </div>
+                                <div class="post-info">
+                                    <div class="post-meta">
+                                       <img class="avatar" alt="" src="images/avatar1.png">
+                                       <span class="post-author">By <a href="#">Jhony Rick</a></span>
+                                    </div>
+                                 </div>
+                                <h3><a href="#">Auto Repair Basics</a></h3>
+                                <p>A wonderful serenity taken possession  into entire soul  like to these sweet and mornings </p>
+                                <a href="#" class="readmore readmore1">Read more<i class="fa fa-angle-double-right"></i></a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div>
+                                <img src="images/post-img3.jpg" style="height: 228px; "class="Services-images-sub"alt="Service-image1" >
+                            </div> 
+                            <div class="main-3lierinfinate">
+                                <div class="service-icon service-date-block ">
+                                    <div class="date-icon">
+                                        <span class="day">25</span>
+                                        <span class="month">Jun</span>
+                                    </div>
+                                </div>
+                                <div class="post-info">
+                                    <div class="post-meta">
+                                       <img class="avatar" alt="" src="images/avatar1.png">
+                                       <span class="post-author">By <a href="#">Jhony Rick</a></span>
+                                    </div>
+                                 </div>
+                                <h3><a href="#">Protecting Your Auto Repair</a></h3>
+                                <p>A wonderful serenity taken possession  into entire soul  like to these sweet and mornings </p>
+                                <a href="#" class="readmore readmore1">Read more<i class="fa fa-angle-double-right"></i></a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div>
+                                <img src="images/post-img3.jpg" style="height: 228px; "class="Services-images-sub"alt="Service-image1" >
+                            </div> 
+                            <div class="main-3lierinfinate">
+                                <div class="service-icon service-date-block ">
+                                    <div class="date-icon">
+                                        <span class="day">25</span>
+                                        <span class="month">Jun</span>
+                                    </div>
+                                </div>
+                                <div class="post-info">
+                                    <div class="post-meta">
+                                       <img class="avatar" alt="" src="images/avatar1.png">
+                                       <span class="post-author">By <a href="#">Jhony Rick</a></span>
+                                    </div>
+                                 </div>
+                                <h3><a href="#">Protecting Your Auto Repair</a></h3>
+                                <p>A wonderful serenity taken possession  into entire soul  like to these sweet and mornings </p>
+                                <a href="#" class="readmore readmore1">Read more<i class="fa fa-angle-double-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="Automatic-slider">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="swiper-container" id="swiper-container5">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="Fig-animation">
+                                    <img src="images/client-img1.png" alt="">   
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="Fig-animation">
+                                    <img src="images/client-img2.png" alt="">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="Fig-animation">
+                                    <img src="images/client-img3.png" alt="">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="Fig-animation">
+                                    <img src="images/client-img4.png" alt="">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="Fig-animation">
+                                    <img src="images/client-img5.png" alt="">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="Fig-animation">
+                                    <img src="images/client-img1.png" alt="">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="Fig-animation">
+                                    <img src="images/client-img2.png" alt="">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="Fig-animation">
+                                    <img src="images/client-img3.png" alt="">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="Fig-animation">
+                                    <img src="images/client-img4.png" alt="">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="Fig-animation">
+                                    <img src="images/client-img5.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                      </div> 
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="Address-bar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-12" style="padding: 0 !important;">
+                        <div class="Addmain">
+                            <div class="midd">
+                                <img src="images/maps-and-flags.png">
+                                <div class="content">
+                                    <h3>Birmingham, Alaska</h3>
+                                    <p>1014 Retreat Avenue</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12" style="padding: 0 !important;">
+                        <div class="Addmain color1">
+                            <div class="midd">
+                                <img src="images/phone-call (2).png">
+                                <div class="content">
+                                    <h3>+(91) 458 654 528</h3>
+                                    <p>Give us a call</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12" style="padding: 0 !important;">
+                        <div class="Addmain color2">
+                            <div class="midd">
+                                <img src="images/mail.png">
+                                <div class="content">
+                                    <h3>info@domain.com</h3>
+                                    <p>24/7 online support</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-main">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-3 col-sm-12">
+                        <div class="footerlogo">
+                            <img src="images/logo.png" class="logo">
+                        </div>
+                        <p class="footerp">A wonderful serenity taken possession into entire soul like to these sweet of tence this spot which was the main part created the bliss often souls like mine.</p>
+                        <div class="footersocial">
+                            <ul class="unstyled-footer">
+                               <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                               <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                               <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                               <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                               <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                            </ul> 
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-12 footer-widget">
+                        <h3 class="widget-title">Our<span> Services</span></h3>
+                        <ul class="unstyled-footer">
+                            <li><a href="#">Engine Diagnostics</a></li>
+                            <li><a href="#">Lube, Oil and Filters</a></li>
+                            <li><a href="#">Computer Diagnostics</a></li>
+                            <li><a href="#">Anti-Lock Brake</a></li>
+                            <li><a href="#">Air Conditioning Evac</a></li>
+                            <li><a href="#">Performance Upgrades</a></li>
+                         </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-12 news-widget">
+                        <h3 class="widget-title">Latest<span> News</span></h3>
+                        <ul class="unstyled-footer">
+                            <li class="news-text">
+                               <a href="#"><span>How can I measure temperature</span></a></br>
+                               <span>July 25, 2016</span>
+                            </li>
+                            <li class="news-text">
+                               <a href="#"><span>How can I measure temperature</span></a></br>
+                               <span>July 25, 2016</span>
+                            </li>
+                            <li class="news-text">
+                               <a href="#"><span>How can I measure temperature</span></a><br>
+                               <span>July 25, 2016</span>
+                            </li>
+                         </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-12">
+                        <h3 class="widget-title">Service<span> Hours</span></h3>
+                        <ul class="unstyled-footer service-time">
+                            <li>
+                               <span>Monday</span>
+                               <span>7.00 - 16.30</span>
+                            </li>
+                            <li>
+                               <span>Tuesday</span>
+                               <span>7.00 - 16.00</span>
+                            </li>
+                            <li>
+                               <span>Wednesday</span>
+                               <span>7.00 - 16.20</span>
+                            </li>
+                            <li>
+                               <span>Thursday</span>
+                               <span>7.00 - 16.00</span>
+                            </li>
+                            <li>
+                               <span>Friday</span>
+                               <span>7.00 - 16.20</span>
+                            </li>
+                            <li>
+                               <span>Saturday</span>
+                               <span>7.00 - 16.10</span>
+                            </li>
+                         </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="copyright">
+        <div class="container">
+           <div class="row">
+              <div class="col-lg-6 col-md-12">
+                 <div class="copyright-info"><span>Copyright © 2018 Automobile. All Rights Reserved.</span></div>
+              </div>
+              <div class="col-lg-6 col-md-12">
+                 <div class="footer-menu">
+                    <ul class="navfooter unstyled">
+                       <li><a href="#">Home</a></li>
+                       <li><a href="#">Terms</a></li>
+                       <li><a href="#">Privacy Policy</a></li>
+                       <li><a href="#">Contact</a></li>
+                    </ul> <!-- Nav End -->
+                 </div> <!-- Footer menu end -->
+              </div> <!-- Col End -->
+           </div><!-- Row end-->
+        </div><!-- Container end-->
+        <div class="back-to-top" id="back-to-top" data-spy="affix" data-offset-top="10" style="display: block;">
+           <a href="#topup"><button class="back-btn" title="Back to Top">
+              <i class="fa fa-angle-double-up"></i><!-- icon end-->
+           </button></a><!-- button end-->
+        </div><!-- Back to top -->
+     </div>
+
+      <!-- Swiper js -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="Javascript/swiper-bundle.min.js"></script>
+      <!-- serch-window-script AND Responsive All-->
+    <script src="Javascript/script.js"></script> 
+    <script>
+        var PRELOAD = document.getElementById("MYLOADING");
+        function MYSPIN(){
+            PRELOAD.style.display = 'none';
+        }
+    </script>
+
+
+
+
+
+</body>
+</html>
