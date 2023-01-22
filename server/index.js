@@ -21,8 +21,8 @@ app.get("/test", (req, res) => {
   });
   
   app.get("/",(req,res)=>{
-      app.use(express.static(path.resolve(path.resolve(__dirname,".."), 'savaliya_technology')))
-      res.sendFile(path.resolve(path.resolve(__dirname,".."),'savaliya_technology','index.html'))
+      app.use(express.static(path.resolve(path.resolve(__dirname,".."), 'client')))
+      res.sendFile(path.resolve(path.resolve(__dirname,".."),'client','index.html'))
   })
   
   app.listen(port, () => console.log(`Server Running on port ${port}`));
