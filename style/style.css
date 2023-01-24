@@ -304,7 +304,7 @@ html{
     position: relative !important;
 }
 .swiperslide1{
-    background-image: url(../images/slider-1.jpg);
+    background-image: url(../images/slider-1.png);
     
 }
 
@@ -736,7 +736,7 @@ section.WhyChoose-main{
 }
 .why_choose_us{
     position: absolute;
-    right: -170px;
+    right: -110px;
     top: 10px;
     float: right;
     max-width: 100%;
