@@ -6,7 +6,7 @@ body {
 }
 .loader-wrapper{
     position: fixed;
-  background-color: #ff3131;
+  background-color: #006b3f;
   width:100%;
   z-index: 9999;
   height:100vh;
