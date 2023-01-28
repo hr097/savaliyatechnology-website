@@ -1,7 +1,7 @@
 
 <div align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" width="190" height="170">
+    <img src="images/logo.jpg" alt="Logo" width="190" height="170">
   </a>
 
 <h3 align="center">Savaliya Technology</h3>
