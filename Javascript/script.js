@@ -1,15 +1,35 @@
+
+
+$(document).ready(function(){
+    $(".default-option").click(function(){
+          $(this).parent().toggleClass("active");
+    });
+    $(".select-ul1 li").click(function(){
+      var shubh = $(this).html();
+      $("#default-option1 li").html(shubh);
+      $(this).parents(".select-wrap").removeClass("active");
+    })
+   
+    $(".select-ul2 li").click(function(){
+      var shubh1 = $(this).html();
+      $("#default-option2 li").html(shubh1);
+      $(this).parents(".select-wrap").removeClass("active");
+    })
+});
+
+
 search = document.querySelector('.search-btn');
 Secserch =document.querySelector('.Sec-serch')
 cross = document.querySelector('.cross-x');
 inputsearch = document.querySelector('.input-search');
 
 
-Secserch.addEventListener('click',()=>
-{
-    search.classList.toggle('search-btn-show');
-    cross.classList.toggle('cross-x-show');
-    inputsearch.classList.toggle('input-search-show');
-})
+// Secserch.addEventListener('click',()=>
+// {
+//     search.classList.toggle('search-btn-show');
+//     cross.classList.toggle('cross-x-show');
+//     inputsearch.classList.toggle('input-search-show');
+// })
 
 const MenuBTN = document.querySelector('.Menu-btn');
 const MENUClose = document.querySelector('.MENUClose');
