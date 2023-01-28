@@ -925,7 +925,7 @@ section.WhyChoose-main{
 {
     width:60px;
     height:70px;
-    position: absolute;
+    position: absolute; 
     top:5px;
     right:0;
 }
@@ -980,7 +980,7 @@ section.WhyChoose-main{
 }
 .Fixed-Background{
     padding: 80px 0 180px;
-    background:url("../images/service_bg1.jpg");
+    background:url("../images/service_img1.jpg");
     background-size: cover;
     background-position: bottom right;
     background-attachment: fixed;
@@ -1887,6 +1887,16 @@ footer{
       top:0;
     }
 } */
+
+.img_icons{
+    width:48px !important;
+    height: 48px !important;
+}
+
+.img_no{
+    width:48px !important;
+    height:50px !important;
+}
 
 
 

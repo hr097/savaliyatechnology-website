@@ -7,10 +7,11 @@ body {
 .loader-wrapper{
     position: fixed;
   background-color: #006b3f;
-  width:100%;
+  width:111%;
   z-index: 9999;
   height:100vh;
   overflow: hidden !important;
+  margin-left: -38px !important;
 }
 
 
@@ -22,7 +23,7 @@ body {
   text-transform: uppercase;
   left: 50%;
   color:white;
-  top: 58%;
+  top: 53%;
   margin-left: -20px;
 }
 
